@@ -1,0 +1,174 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e6f2ff;
+    border: 1px solid #b3d9ff;
+    margin-bottom: 30px;
+}
+
+.small-title {
+    color: #666;
+    font-size: 14px;
+}
+
+.hero h1 span {
+    color: #0056b3;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #004494;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+/* Cards (Progetti / Classe) */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Subjects */
+.subjects {
+    margin-top: 20px;
+}
+
+.subjects div {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+}
+
+.subjects span {
+    font-weight: bold;
+    color: #0056b3;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Message Section */
+.message-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
